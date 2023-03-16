@@ -1,0 +1,63 @@
+
+/* NAV BUTTON */
+.line1 ,.line2 ,.line3{
+  width: 23px;
+  height: 3px;
+  margin: 5px;
+  transition: all.4s;
+  background-color: rgb(26, 26, 26);
+}
+.change .line1{
+  transform: rotate(-45deg) translate(-5px,6px);
+}
+.change .line2{
+  opacity: 0;
+}
+.change .line3{
+  transform: rotate(45deg) translate(-5px,-6px);
+}
+/* END OF NAV BUTTON */
+/* NAV */
+a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.a-style:hover{
+  color: red;
+
+}
+li{
+  border-radius: 10px;
+  
+}
+li:hover{
+  background-color:rgb(218, 218, 218) ;
+}
+/* END OF NAV */
+/* CARD1 */
+.card-style{
+  background-color:rgb(18, 18, 17);
+}
+h5{
+  cursor: pointer;
+  color: aliceblue;
+}
+h5:hover{
+  color: rgb(215, 165, 57);
+
+}
+.h-style{
+  font-family: Paytone One;
+}
+/* END OF CARD1 */
+/* COL1 */
+.h5-style{
+  color: black;
+}
+.h5-style:hover{
+  color: rgb(232, 38, 38);
+}
+.card-3{
+  background-color: tra;
+}
+/* END OF COL1 */
